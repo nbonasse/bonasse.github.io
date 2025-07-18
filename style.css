@@ -1,0 +1,10 @@
+/* Custom styles for the Inter font and basic layout */
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the footer stays at the bottom */
+}
+main {
+    flex-grow: 1; /* Allow main content to take available space */
+}
